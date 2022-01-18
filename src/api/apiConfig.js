@@ -1,3 +1,5 @@
+// const baseURL = process.env.REACT_APP_API
+
 const apiConfig = {
     baseUrl: 'https://api.themoviedb.org/3/',
     apiKey: '901609564690fb9e0664182b3f6cff7b',
