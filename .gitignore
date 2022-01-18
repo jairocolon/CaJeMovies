@@ -18,7 +18,7 @@
 .vscode
 
 #apikey
-/api/apiConfig.js
+/src/api/apiConfig.js
 
 # misc
 .DS_Store
