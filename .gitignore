@@ -11,6 +11,13 @@
 # production
 /build
 
+#variables entorno
+.env
+
+#apikey
+/api
+/apiConfig.js
+
 # misc
 .DS_Store
 .env.local
