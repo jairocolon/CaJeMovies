@@ -14,9 +14,11 @@
 #variables entorno
 .env
 
+#visual
+.vscode
+
 #apikey
-/api
-/apiConfig.js
+/api/apiConfig.js
 
 # misc
 .DS_Store
