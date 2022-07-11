@@ -3,7 +3,7 @@ import React from "react";
 import "./footer.scss";
 
 import bg from "../../assets/footer-bg.jpg";
-import logo from "../../assets/jaicoMovies.png";
+import logo from "../../assets/cajemovies.png";
 
 const Footer = () => {
   return (
@@ -12,56 +12,56 @@ const Footer = () => {
         <div className="footer__content__logo">
           <div className="logo">
             <img src={logo} alt="" />
-            <a href="#home">Jaico Movies</a>
+            <a href="#home">CaJe Movies</a>
           </div>
         </div>
         <div className="footer__content__menus">
           <div className="footer__content__menu">
             <a href="/" id="home">
-              Home
+              Inicio
             </a>
-            <a href="https://jairocolon.netlify.app/#contact" target="blank">
-              Contact us
-            </a>
+            {/* <a href="https://jairocolon.netlify.app/#contact" target="blank">
+              Contacto
+            </a> */}
             {/* <Link to="/">Term of services</Link> */}
-            <a href="https://jairocolon.netlify.app/#about" target="blank">
-              About us
-            </a>
           </div>
           <div className="footer__content__menu">
-            <a href="/movie">Movies</a>
+            <a href="/movie">Películas</a>
             <a href="/tv">Tv Series</a>
-            <a
+            {/* <a
               href="https://jairocolon.netlify.app/services/websites/dise%C3%B1o-web.html"
               target="blank"
             >
               Premium Websites
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://jairocolon.netlify.app/services/websites/dise%C3%B1o-ecommerce.html"
               target="blank"
             >
               Premium Ecommerce Movies
-            </a>
+            </a> */}
           </div>
           <div className="footer__content__menu">
-            <a
+            {/* <a
               href="https://jairocolon.netlify.app/services/websites/desarrollo-appsmobile.html"
               target="blank"
             >
               Apps Movies
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://jairocolon.netlify.app/services/websites/desarrollo-web-a-la-medida.html"
               target="blank"
             >
               Measure Movies
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://jairocolon.netlify.app/services/more-services/smm.html"
               target="blank"
             >
               Movies SMM
+            </a> */}
+            <a href="https://jaicodigital.com" target="blank">
+              Diseñado y Desarrollado por JaiCo Digital ®
             </a>
           </div>
         </div>
