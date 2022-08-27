@@ -61,7 +61,7 @@ const Footer = () => {
               Movies SMM
             </a> */}
             <a href="https://jaicodigital.com" target="blank">
-              Diseñado y Desarrollado por JaiCo Digital ®
+              Designed by Jairo Colón ®
             </a>
           </div>
         </div>
