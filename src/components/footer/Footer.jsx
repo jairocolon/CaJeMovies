@@ -60,7 +60,7 @@ const Footer = () => {
             >
               Movies SMM
             </a> */}
-            <a href="https://jaicodigital.com" target="blank">
+            <a href="https://jairocolon.com" target="blank">
               Designed by Jairo Colón ®
             </a>
           </div>
