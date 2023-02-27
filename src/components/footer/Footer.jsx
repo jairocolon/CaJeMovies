@@ -33,6 +33,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <div className="copyright-footer">
+          <span>© 2022 - 2023 Todos los derechos reservados Jairo Colón</span>
+        </div>
       </div>
     </div>
   );

@@ -39,9 +39,17 @@
   }
 }
 
+.copyright-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 767px) {
   .byJairoColon {
     position: absolute;
-   padding-top: 15px;
+    padding-top: 15px;
+    left: 3.5rem;
   }
 }
