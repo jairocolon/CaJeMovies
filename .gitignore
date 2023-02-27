@@ -16,6 +16,7 @@
 
 #visual
 .vscode
+.vscode/settings.json
 
 #apikey
 /src/api/apiConfig.js

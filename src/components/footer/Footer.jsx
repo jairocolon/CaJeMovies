@@ -1,7 +1,5 @@
 import React from "react";
-
 import "./footer.scss";
-
 import bg from "../../assets/footer-bg.jpg";
 import logo from "../../assets/cajemovies.png";
 
@@ -20,48 +18,18 @@ const Footer = () => {
             <a href="/" id="home">
               Inicio
             </a>
-            {/* <a href="https://jairocolon.netlify.app/#contact" target="blank">
-              Contacto
-            </a> */}
-            {/* <Link to="/">Term of services</Link> */}
           </div>
           <div className="footer__content__menu">
             <a href="/movie">Películas</a>
             <a href="/tv">Tv Series</a>
-            {/* <a
-              href="https://jairocolon.netlify.app/services/websites/dise%C3%B1o-web.html"
-              target="blank"
-            >
-              Premium Websites
-            </a> */}
-            {/* <a
-              href="https://jairocolon.netlify.app/services/websites/dise%C3%B1o-ecommerce.html"
-              target="blank"
-            >
-              Premium Ecommerce Movies
-            </a> */}
           </div>
           <div className="footer__content__menu">
-            {/* <a
-              href="https://jairocolon.netlify.app/services/websites/desarrollo-appsmobile.html"
+            <a
+              className="byJairoColon"
+              href="https://jairocolon.com"
               target="blank"
             >
-              Apps Movies
-            </a> */}
-            {/* <a
-              href="https://jairocolon.netlify.app/services/websites/desarrollo-web-a-la-medida.html"
-              target="blank"
-            >
-              Measure Movies
-            </a> */}
-            {/* <a
-              href="https://jairocolon.netlify.app/services/more-services/smm.html"
-              target="blank"
-            >
-              Movies SMM
-            </a> */}
-            <a href="https://jairocolon.com" target="blank">
-              Designed by Jairo Colón ®
+              Diseñado y Desarrollado por Jairo Colón ®
             </a>
           </div>
         </div>
