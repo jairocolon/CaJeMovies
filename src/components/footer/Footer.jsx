@@ -4,6 +4,8 @@ import bg from "../../assets/footer-bg.jpg";
 import logo from "../../assets/cajemovies.png";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="footer" style={{ backgroundImage: `url(${bg})` }}>
       <div className="footer__content container">
@@ -34,7 +36,16 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright-footer">
-          <span>© 2022 - 2023 Todos los derechos reservados Jairo Colón</span>
+          <span>
+            © 2022 - {currentYear} Todos los derechos reservados{" "}
+            <a
+              className="byJairoColon"
+              href="https://jairocolon.com"
+              target="blank"
+            >
+              Jairo Colón
+            </a>
+          </span>
         </div>
       </div>
     </div>
